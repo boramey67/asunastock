@@ -40,6 +40,7 @@ export default function App() {
           <Route path="/stock-movements" element={<Protected><StockMovements /></Protected>} />
           <Route path="/transactions" element={<Protected><Transactions /></Protected>} />
           <Route path="/categories" element={<Protected><Categories /></Protected>} />
+          <Route path="help" element={<Help />} />
           <Route path="ad-spend" element={<AdSpend />} />
         </Routes>
       </AuthProvider>
