@@ -13,6 +13,8 @@ import OrderDetail from './pages/OrderDetail'
 import StockMovements from './pages/StockMovements'
 import Transactions from './pages/Transactions'
 import Categories from './pages/Categories'
+import Help from './pages/Help'
+import AdSpend from './pages/AdSpend'
 
 function Protected({ children }) {
   return (
