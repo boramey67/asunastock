@@ -7,13 +7,13 @@ import { useState } from 'react'
 import { useAuth } from '../context/AuthContext'
 
 const navItems = [
-  { to: '/', label: 'Dashboard', icon: LayoutDashboard, end: true },
+  { to: '/', label: 'Dashboard', icon: LayoutDashboard, end: true }, { to: '/ad-spend', label: 'Ad Spend', icon: Megaphone },
   { to: '/products', label: 'Products', icon: Package },
   { to: '/sale', label: 'Log a Sale', icon: ScanBarcode },
   { to: '/orders', label: 'Orders', icon: ClipboardList },
   { to: '/stock-movements', label: 'Stock Movements', icon: ArrowLeftRight },
   { to: '/transactions', label: 'Transactions', icon: Wallet },
-    { to: '/ad-spend', label: 'Ad Spend', icon: Megaphone },
+   
 ]
 
 export default function Layout({ children }) {
