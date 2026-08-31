@@ -13,7 +13,7 @@ const navItems = [
   { to: '/orders', label: 'Orders', icon: ClipboardList },
   { to: '/stock-movements', label: 'Stock Movements', icon: ArrowLeftRight },
   { to: '/transactions', label: 'Transactions', icon: Wallet },
-  { to: '/categories', label: 'Categories', icon: Tags },
+    { to: '/ad-spend', label: 'Ad Spend', icon: Megaphone },
 ]
 
 export default function Layout({ children }) {
