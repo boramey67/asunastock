@@ -6,7 +6,7 @@ import {
 } from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import QuickSearch from './QuickSearch'
-import Walkthrough from './Walkthrough'
+
 
 const navItems = [
   { to: '/', label: 'Dashboard', icon: LayoutDashboard, end: true },
